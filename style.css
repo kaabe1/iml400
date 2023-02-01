@@ -1,0 +1,169 @@
+h1 {
+  font-family: "Source Serif Pro", serif;
+}
+
+h2 {
+  font-family: "Cormorant", serif;
+}
+
+p {
+  font-family: "Forum", cursive;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto\9; /* ie8 */
+}
+
+.slide {
+  width: 100vw;
+  height: 100vh;
+  /* Full height */
+  /*   height: 100%;  */
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 300vw;
+  transform: rotate(90deg) translateY(-100vh);
+  transform-origin: top left;
+}
+.one {
+  background-image: url("https://cdn.glitch.global/615727b4-cf13-4386-bc45-98287f32854a/kauai%201.png?v=1674365225273");
+}
+.two {
+  background-image: url("https://cdn.glitch.global/615727b4-cf13-4386-bc45-98287f32854a/kauai%202.png?v=1674365229787");
+}
+.three {
+  background-image: url("https://cdn.glitch.global/615727b4-cf13-4386-bc45-98287f32854a/kauai%203.png?v=1674365235009");
+}
+
+.outer-wrapper {
+  width: 100vh;
+  height: 100vw;
+  transform: rotate(-90deg) translateX(-100vh);
+  transform-origin: top left;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: absolute;
+}
+
+/* for index */
+.in-flight {
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: -10;
+  overflow-y: hidden; // hide vertical
+}
+
+.screen {
+  width: 100%;
+  max-width: 1920px;
+  position: relative;
+}
+
+/* .screen img{
+  width:100%;
+} */
+
+.screen iframe {
+  position: absolute;
+  /* width: 64%;
+  height:50%; */
+  width: 58%;
+  height: 45.3125%;
+  left: 20.7%;
+  top: 21.2%;
+}
+
+.center {
+  text-align: CENTER;
+  position: fixed;
+  top: 50vh;
+  left: 50vw;
+  width: 900px;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  vertical-align: middle;
+}
+
+.sub-text {
+  color: #fdfcfb;
+}
+
+#small {
+  font-size: 12px;
+}
+
+.cycle {
+  font-family: "Source Serif Pro", serif;
+  font-size: 70px;
+  height: 80px;
+  color: #fdfcfb;
+}
+
+.filler {
+  position: relative;
+  width: 100%;
+}
+
+.myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  z-index: 1;
+}
+
+.myImg:hover {
+  opacity: 0.7;
+}
+
+.plane-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  left: 42.5%;
+  bottom: 5%;
+  position: fixed;
+}
+
+#overlay {
+  position: fixed; /* Sit on top of the page content */
+ display: none;  /* Hidden by default */
+  width: 100vw; /* Full width (cover the whole page) */
+  height: 100vh; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(125,125,0,0.5); /* Black background with opacity */
+  z-index: 20; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+}
+
+/* pog */
+
+#pog{
+  width: 250px;
+  left:2%;
+  top:50%;
+  position: fixed;
+   transform: rotate(-10deg);
+}
+
+#randomize {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
