@@ -1,7 +1,9 @@
 # A Home: Not Paradise
-
 **by Karen Abe**
 **2022 USC Media Arts + Practice Senior Thesis**
+
+![](https://github.com/kaabe1/iml400/blob/0b17483eab82c83974f6347d0a81d05e307de3bd/thesis-website-capture.gif)
+
 
 “A Home: Not Paradise” is an experience-based installation that simulates a flight to Hawaiʻi. Through the flight, the audience has opportunity to understand issues of colonialism, militarism & environmentalism through the lens of tourism. The experience is built to subvert the propagated image of “paradise” and understand the day-to-day issues that impact the local and Kānak Maolī (Native Hawaiian) community.
 
